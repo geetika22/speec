@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
+
+body {
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.graphic {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.iLleVA {
+  margin: 0;
+}
+.underline {
+  content: "";
+  display: block;
+  background: #ff971d;
+  width: 100px;
+  margin: 10px auto;
+  height: 3.5px;
+  bottom: 15;
+}
+
+.heading {
+  font-family: Volkhov;
+  font-weight: 700;
+  color: #1d3e53;
+}
+
+.para {
+  font-family: Georama;
+  color: #476d7c;
+}
+
+.para2 {
+  font-family: Georama;
+  word-spacing: 3px;
+  color: #254b62;
+}
+
+.button {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ff971d;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #ff971d;
+  color: #fff;
+  text-decoration: none;
+}
